@@ -1,0 +1,39 @@
+BigNum Calculator  by Robert Rayment
+
+1. Max hex input length is 256 
+   (~310 dec, 1024 bin).
+2. Results show the low end for long
+   strings. Display shows whole length.
+3. Random Test takes the hex length.
+4. N factorial, squared & cubed operate
+   on the second number.
+5. Permutations = N!/(N-r)!
+   Combinations = N!/(r!(N-r)!)
+   where r = 1st and N = 2nd number.
+6. Note for long inputs, the keyboard
+   repetition rate can be too fast for
+   the program - so wait for input
+   length to stop changing.
+
+Shift operations    Rotate operations
+  1 1 0 0             1 1 0 1
+-------               -------
+1 1 0 0 0   SHL       1 0 1 1    ROL
+  0 1 1 0   SHR       1 1 1 0    ROR
+
+Not                 Logic operations
+  1 0 1 0             1 0 1 0
+  -------             1 1 0 0
+  0 1 0 1   Not       -------
+                      1 0 0 0    AND
+                      1 1 1 0    OR
+                      0 1 1 0    XOR
+                      1 0 0 1    EQV
+                      1 1 0 1    IMP
+
+                      
+
+
+
+
+
